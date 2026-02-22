@@ -134,11 +134,45 @@
 // console.log(result1)    
 //////////////////////////////////////////
 //Condational Statements
-let age =14;
-if(age<12){
-    console.log('Sorry')
-}else {
-    console.log(`welcome`)
+// let age =14;
+// if(age<12){
+//     console.log('Sorry')
+// }else {
+//     console.log(`welcome`)
+// }
+// let number =1;
+// if(number>0){
+//     console.log(`+`)
+// }
+//     else if(number<0){
+//     console.log(`-`)
+// }
+// else{
+//     console.log(`Zero`)
+// }
+////////////////////////////////////
+//Swirch Statement 
+const colors=[`red`,`green`,`blue`];
+let colorNumber=6   ;//1=>red 2=>green 3=>blue
+switch(colorNumber){//بحط القيمة اللي بدي اشيك عليها 
+    case 1:
+        console.log(colors[0])
+        break;
+    case 2:
+        console.log(colors[1])
+        break;  
+    case 3:
+        console.log(colors[2])
+        break;
+        case 4:
+        case 5:
+        console.log(`balck`)
+        break
+       
+    default:
+        console.log(`Invalid color number`)
+
 }
+
 
 
