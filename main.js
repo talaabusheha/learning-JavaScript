@@ -152,27 +152,76 @@
 // }
 ////////////////////////////////////
 //Swirch Statement 
-const colors=[`red`,`green`,`blue`];
-let colorNumber=6   ;//1=>red 2=>green 3=>blue
-switch(colorNumber){//بحط القيمة اللي بدي اشيك عليها 
-    case 1:
-        console.log(colors[0])
-        break;
-    case 2:
-        console.log(colors[1])
-        break;  
-    case 3:
-        console.log(colors[2])
-        break;
-        case 4:
-        case 5:
-        console.log(`balck`)
-        break
+// const colors=[`red`,`green`,`blue`];
+// let colorNumber=6   ;//1=>red 2=>green 3=>blue
+// switch(colorNumber){//بحط القيمة اللي بدي اشيك عليها 
+//     case 1:
+//         console.log(colors[0])
+//         break;
+//     case 2:
+//         console.log(colors[1])
+//         break;  
+//     case 3:
+//         console.log(colors[2])
+//         break;
+//         case 4:
+//         case 5:
+//         console.log(`balck`)
+//         break
        
-    default:
-        console.log(`Invalid color number`)
+//     default:
+//         console.log(`Invalid color number`)
 
+// }
+//////////////////////////////////////////
+//Loops
+//For Loop
+// for(let i=5;i>=1;i--){
+//     console.log(i)
+// }
+// const colors = ['red', 'black', 'white', 'yellow'];
+// for(let i=0;i<colors.length;i++){
+//     console.log(colors[i])
+// }
+//foreach 
+// colors.forEach((colores)=>{
+//     console.log(colores)
+// })
+//For of loop
+//     element+of+Array Name
+// for(let color of colors){//Of=> Array name 
+//     console.log(color)
+// } 
+//////////////////////////////////////////
+//For of with String
+// const  values="welcome to JS";
+// for(let char of values){
+//     console.log(char)
+// }
+//////////////////////////////////////////////
+//While Loop
+// const colors = ['red', 'black', 'white', 'yellow'];
+// let i=0;//beginning of Array
+// while(i<colors.length){
+//     console.log(colors[i])
+//     i++;//increment
+// }
+////////////////////////////////////
+//do while Loop
+// const colors = ['red', 'black', 'white', 'yellow'];
+// let i=0;//beginning of Array
+// do{
+//     console.log(colors[i])
+//     i++;//increment
+// }while(i<colors.length)
+//////////////////////////////////////////
+//break statement
+const numbers=[1,2,3,4,5];
+for(let i=1;i<=numbers.length;i++){
+    console.log(i)
 }
+
+    
 
 
 
