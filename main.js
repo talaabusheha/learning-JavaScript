@@ -216,10 +216,24 @@
 // }while(i<colors.length)
 //////////////////////////////////////////
 //break statement
-const numbers=[1,2,3,4,5];
-for(let i=1;i<=numbers.length;i++){
-    console.log(i)
-}
+// const numbers=[1,2,3,0,4,5];
+// for(let i=0;i<=numbers.length;i++){
+//     if(numbers[i]===0){
+//         break;//stop the loop when number is 0
+//     }
+//     console.log(numbers[i])
+// }
+// console.log('*** ')
+//////////////////////////////////////////
+//continue statement
+// const numbers=[1,2,3,0,4,5];
+// for(let i=0;i<=numbers.length;i++){
+//     if(numbers[i]===0){
+//         continue;//skip the number 0 and continue with the next iteration
+//     }
+//     console.log(numbers[i])
+// }
+//////////////////////////////////////////
 
     
 
