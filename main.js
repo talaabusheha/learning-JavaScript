@@ -234,8 +234,41 @@
 //     console.log(numbers[i])
 // }
 //////////////////////////////////////////
-
-    
+//function
+// function printNumbers(a,j){
+    // console.log(1)
+    // console.log(2)
+    // console.log(3)
+    // console.log(4)
+//     for(let i=a;i<=j;i++){
+//         console.log(i)
+//     }
+// }
+// printNumbers(1,7) //call the function
+// const fun= function print (){
+//     console.log(4)
+//     console.log(5)
+//     console.log(6)
+// }
+// fun();
+// function add(firstNumber ,secondNumber){
+//     console.log(firstNumber+secondNumber)
+// }
+// add("welcome","JS")
+// add(5,3)
+//////////////////////////////////////
+//return statement
+function add (firstNumber ,secondNumber){
+    // let result=firstNumber+secondNumber;
+    return firstNumber+secondNumber;
+}
+///////////////////////////////////
+// let value =add(5,2);//store the returned value in variable
+// console.log(value)
+// console.log(add(5,2))
+// console.log(add(value,value))
+// console.log(add(add(2,5),add(5,8)))//add the returned value to itself
+////////////////////////////////////////////
 
 
 
