@@ -269,6 +269,59 @@ function add (firstNumber ,secondNumber){
 // console.log(add(value,value))
 // console.log(add(add(2,5),add(5,8)))//add the returned value to itself
 ////////////////////////////////////////////
+// function printYourName(name) {
+//     return "Your name is " + name
+// }
+// let functionOutput = printYourName("Reem")
+// console.log(printYourName('Tala'))
+// console.log(functionOutput)
+//////////////////////////////////////////
+const library = [
+[1,'Start with why', 'Simon Sinek',80,13],
+[2,'But how do it know', 'J.Clark Scott',59,22],
+[3,'Clean Code', 'Robert Cecil Martin',50,5],
+[4,'Zero to One', 'Peter Thiel',45,12],
+[5,'You don\'t know JS', 'Kyle Simpson',39,9]
+
+]
+function getBookDetails(bookId){
+    library .forEach(e => {
+        if(e[0]===bookId){
+            console.log(`Book Name: ${e[1]}\nAuthor: ${e[2]}\nPrice: ${e[3]}\nQuantity: ${e[4]}`)
+        }
+        
+    });
+}
+function getBookTitle(Title){
+    library.forEach(e => {
+        if(e[1]===Title){
+            console.log(`Book Name: ${e[1]}\nAuthor: ${e[2]}\nPrice: ${e[3]}\nQuantity: ${e[4]}`)
+        }});
+    }
+function getBookAuthor(Author){
+    library.forEach(e => {
+        if(e[2]===Author){
+            console.log(`Book Name: ${e[1]}\nAuthor: ${e[2]}\nPrice: ${e[3]}\nQuantity: ${e[4]}`)
+        }});}
+function buyBook(bookId){
+    library.forEach(e => {
+        if(e[0]===bookId){
+            if(e[4]>0){
+                e[4]--;//decrease quantity by 1
+                console.log(`You bought ${e[1]} for ${e[3]} dollars. Remaining quantity: ${e[4]}`)
+            }else{
+                console.log(`Sorry, ${e[1]} is out of stock.`)
+            }
+}});
+} 
+buyBook(1);
+buyBook(1)
+    
+    
+
+
+
+
 
 
 
